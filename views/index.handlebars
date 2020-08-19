@@ -1,0 +1,30 @@
+
+<h2>When are you working?</h2>
+
+<form action="/fee" method="POST">
+
+	{{!-- {{#if showMorning}} --}}
+	<div class="{{yellow}}" >
+		<input type="radio" name="shift" value="morning"> Morning
+	</div>
+	{{!-- {{/if}} --}}
+
+	<div>
+		<input type="radio" name="shift" value="afternoon"> Afternoon
+	</div>
+	<div>
+		<input type="radio" name="shift" value="evening"> Evening
+	</div>
+	<div>
+		<input type="submit" value="Get price">
+	</div>
+</form>
+
+<form action="/reset" method="POST">
+	<input type="submit" value="Reset morning">
+</form>
+
+
+<div>
+	<a href="/fee/morning">Get morning shift price</a>
+</div>

@@ -1,0 +1,18 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: dodgerblue;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+	background-color: aliceblue;
+	padding : 1em;
+}
+
+.yellow {
+	color: yellow;
+	background-color: black;
+	padding: 0.25em;
+	width: 5em;
+}
