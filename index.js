@@ -45,6 +45,8 @@ app.post("/reset", function(req, res) {
 	res.redirect("/");
 })
 
-app.listen(3007, function() {
-	console.log("App started on port 3007");
+const PORT = process.env.PORT || 3007;
+
+app.listen(PORT, function() {
+	console.log("App started on port " + PORT);
 });
